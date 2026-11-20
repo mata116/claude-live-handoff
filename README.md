@@ -213,6 +213,7 @@ This removes the three hooks from `settings.json` (again with a backup) and dele
 ```
 claude-live-handoff/
 ├── README.md
+├── LICENSE                         MIT
 ├── install.sh                      installer and uninstaller
 ├── .gitignore
 ├── .gitattributes                  keeps LF line endings on the scripts
@@ -230,3 +231,7 @@ claude-live-handoff/
 - **A hook error in one project only.** If `python3` comes from a version manager, the project may ask for a version that is not installed. Run the installer once more with `LIVE_HANDOFF_PYTHON=/usr/bin/python3` (or another fixed interpreter).
 - **You moved or reinstalled Python.** Run `bash claude-live-handoff/install.sh` again: it rewrites the interpreter in the three hooks and changes nothing else.
 - **You want your old settings back.** The backups are next to the file: `settings.json.live-handoff-YYYYMMDD-HHMMSS.bak`.
+
+## License
+
+MIT. See [LICENSE](LICENSE).
