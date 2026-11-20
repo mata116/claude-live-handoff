@@ -1,0 +1,19 @@
+# Snapshots the PreCompact hook writes into a project
+.handoff/
+
+# This repository's own live-handoff state, written while working on it
+TODO.md
+.live-handoff-off
+
+# Python
+__pycache__/
+*.py[cod]
+
+# Operating system and editor noise
+.DS_Store
+Thumbs.db
+desktop.ini
+.idea/
+.vscode/
+*.swp
+*~

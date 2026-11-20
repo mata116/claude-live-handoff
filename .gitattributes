@@ -1,0 +1,4 @@
+# install.sh and sync_state.py must keep LF line endings on every platform.
+# A CRLF shebang line stops both from running on macOS and Linux, and a CRLF
+# shell script fails in Git Bash on Windows too.
+* text=auto eol=lf
